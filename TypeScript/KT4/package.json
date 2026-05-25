@@ -1,0 +1,14 @@
+{
+  "name": "kt4-abstract-factory-jeka",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "npx ts-node main.ts",
+    "kt4:jeka": "npx ts-node main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
