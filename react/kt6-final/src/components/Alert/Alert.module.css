@@ -1,0 +1,15 @@
+.alert {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+}
+
+.error {
+  border-color: var(--danger-border);
+  color: var(--danger);
+}
+
+.info {
+  color: var(--text);
+}

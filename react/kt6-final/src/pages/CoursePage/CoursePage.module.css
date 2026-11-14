@@ -1,0 +1,11 @@
+.back {
+  color: var(--muted);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.joinBlock {
+  margin-top: 16px;
+}

@@ -1,0 +1,19 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.invalid {
+  border-color: var(--danger-border);
+}
+
+.error {
+  color: var(--danger);
+  font-size: 13px;
+}

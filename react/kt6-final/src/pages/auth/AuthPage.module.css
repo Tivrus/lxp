@@ -1,0 +1,18 @@
+.card {
+  max-width: 320px;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  margin-top: 16px;
+  color: var(--muted);
+}

@@ -1,0 +1,39 @@
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--border);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  color: var(--text);
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.empty {
+  color: var(--muted);
+}

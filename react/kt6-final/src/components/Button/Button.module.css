@@ -1,0 +1,23 @@
+.button {
+  padding: 6px 14px;
+  border: 1px solid #4a4a4a;
+  background: var(--button);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.secondary {
+  background: transparent;
+}
+
+.danger {
+  background: transparent;
+  border-color: var(--danger-border);
+  color: var(--danger);
+}

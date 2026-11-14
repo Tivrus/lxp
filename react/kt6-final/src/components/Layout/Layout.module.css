@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+
+.link {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.active {
+  color: var(--active);
+  text-decoration: underline;
+}
+
+.account {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
