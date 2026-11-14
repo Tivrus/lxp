@@ -1,0 +1,14 @@
+{
+  "password": "password123",
+  "users": [
+    { "email": "admin@example.com", "name": "Админ", "role": "ADMIN" },
+    { "email": "moder@example.com", "name": "Модератор", "role": "MODERATOR" },
+    { "email": "ivan@example.com", "name": "Иван" }
+  ],
+  "posts": [
+    { "title": "Правила блога", "content": "Не ругаемся.", "published": true, "author": "admin@example.com", "tags": ["news"] },
+    { "title": "Как я учил Node.js", "content": "Начал с потоков...", "published": true, "author": "ivan@example.com", "tags": ["node", "js"] },
+    { "title": "Черновик про Prisma", "content": null, "published": false, "author": "ivan@example.com", "tags": ["prisma", "node"] },
+    { "title": "Что проверяет модератор", "content": "Спам и оффтоп", "published": true, "author": "moder@example.com", "tags": ["news"] }
+  ]
+}

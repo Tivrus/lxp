@@ -1,0 +1,18 @@
+{
+  "any.required": "{{#label}} обязательно",
+  "any.only": "{{#label}} должно быть одним из: {{#valids}}",
+  "string.base": "{{#label}} должно быть строкой",
+  "string.empty": "{{#label}} не может быть пустым",
+  "string.min": "{{#label}} должно быть не короче {{#limit}} символов",
+  "string.max": "{{#label}} должно быть не длиннее {{#limit}} символов",
+  "number.base": "{{#label}} должно быть числом",
+  "number.integer": "{{#label}} должно быть целым числом",
+  "number.min": "{{#label}} должно быть не меньше {{#limit}}",
+  "number.max": "{{#label}} должно быть не больше {{#limit}}",
+  "boolean.base": "{{#label}} должно быть true или false",
+  "array.base": "{{#label}} должно быть массивом",
+  "array.max": "{{#label}}: не больше {{#limit}} элементов",
+  "string.email": "{{#label}} должен быть корректным email",
+  "object.unknown": "поле {{#label}} не поддерживается",
+  "object.min": "нужно передать хотя бы одно поле"
+}

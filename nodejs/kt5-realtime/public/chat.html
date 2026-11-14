@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Чат</title>
+    <link rel="stylesheet" href="chat.css" />
+  </head>
+  <body>
+    <form id="login">
+      <h2>Вход в чат</h2>
+      <input name="email" type="email" placeholder="email" value="ivan@example.com" required />
+      <input name="password" type="password" placeholder="пароль" required />
+      <button>войти</button>
+      <p id="login-error" class="error"></p>
+    </form>
+
+    <div id="chat" hidden>
+      <div class="top">
+        <span>Вы: <b id="me"></b></span>
+        <span id="status" class="muted">подключение...</span>
+        <button id="logout">выйти</button>
+      </div>
+
+      <div class="rooms">
+        <span id="tabs"></span>
+        <form id="join">
+          <input name="room" placeholder="комната" maxlength="30" />
+          <button>войти в комнату</button>
+        </form>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <ul id="messages"></ul>
+          <form id="send">
+            <input name="text" placeholder="сообщение" autocomplete="off" />
+            <button>отправить</button>
+          </form>
+          <p id="chat-error" class="error"></p>
+        </div>
+        <div class="users">
+          <b>Онлайн</b>
+          <ul id="online"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>

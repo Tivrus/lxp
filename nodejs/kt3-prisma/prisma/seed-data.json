@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "email": "anna@example.com", "name": "Анна", "role": "ADMIN" },
+    { "email": "ivan@example.com", "name": "Иван" }
+  ],
+  "posts": [
+    { "title": "Первый пост", "content": "Привет всем!", "published": true, "author": "anna@example.com", "tags": ["news"] },
+    { "title": "Как я учил Node.js", "content": "Начал с потоков...", "published": true, "author": "ivan@example.com", "tags": ["node", "js"] },
+    { "title": "Prisma и связи многие-ко-многим", "content": null, "published": false, "author": "ivan@example.com", "tags": ["prisma", "node"] },
+    { "title": "Черновик про Express 5", "content": "TODO", "published": false, "author": "anna@example.com", "tags": ["express", "node"] }
+  ]
+}

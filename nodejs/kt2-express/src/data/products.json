@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ноутбук Lenovo IdeaPad 5",
+    "price": 64990,
+    "category": "electronics",
+    "stock": 4
+  },
+  {
+    "name": "Наушники Sony WH-1000XM5",
+    "price": 32990,
+    "category": "electronics",
+    "stock": 10
+  },
+  {
+    "name": "Смартфон Xiaomi Redmi Note 13",
+    "price": 19990,
+    "category": "electronics",
+    "stock": 0
+  },
+  {
+    "name": "Худи оверсайз серое",
+    "price": 3490,
+    "category": "clothing",
+    "stock": 15
+  },
+  {
+    "name": "Кроссовки беговые",
+    "price": 6990,
+    "category": "clothing",
+    "stock": 6
+  },
+  {
+    "name": "Кофе в зернах 1 кг",
+    "price": 1590,
+    "category": "food",
+    "stock": 30
+  },
+  {
+    "name": "Шоколад горький 100 г",
+    "price": 189,
+    "category": "food",
+    "stock": 50
+  },
+  {
+    "name": "Настольная лампа",
+    "price": 2390,
+    "category": "other",
+    "stock": 7
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "kt01-csv-filter",
+  "version": "1.0.0",
+  "description": "CLI-утилита: фильтрует CSV с пользователями по возрасту и городу",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

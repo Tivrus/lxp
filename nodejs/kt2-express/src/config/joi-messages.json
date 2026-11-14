@@ -1,0 +1,15 @@
+{
+  "any.required": "{{#label}} обязательно",
+  "any.only": "{{#label}} должно быть одним из: {{#valids}}",
+  "string.base": "{{#label}} должно быть строкой",
+  "string.empty": "{{#label}} не может быть пустым",
+  "string.min": "{{#label}} должно быть не короче {{#limit}} символов",
+  "string.max": "{{#label}} должно быть не длиннее {{#limit}} символов",
+  "number.base": "{{#label}} должно быть числом",
+  "number.positive": "{{#label}} должно быть больше 0",
+  "number.integer": "{{#label}} должно быть целым числом",
+  "number.min": "{{#label}} должно быть не меньше {{#limit}}",
+  "number.max": "{{#label}} должно быть не больше {{#limit}}",
+  "object.unknown": "поле {{#label}} не поддерживается",
+  "object.min": "нужно передать хотя бы одно поле"
+}

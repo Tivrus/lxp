@@ -1,0 +1,24 @@
+{
+  "password": "password123",
+  "users": [
+    { "email": "admin@example.com", "name": "Админ", "role": "ADMIN" },
+    { "email": "ivan@example.com", "name": "Иван" },
+    { "email": "olga@example.com", "name": "Ольга" }
+  ],
+  "projects": [
+    { "title": "Сайт кофейни", "description": "Лендинг и меню", "owner": "ivan@example.com" },
+    { "title": "Мобильное приложение", "description": "Заказ кофе с собой", "owner": "olga@example.com" },
+    { "title": "Внутренние задачи", "owner": "admin@example.com" }
+  ],
+  "tasks": [
+    { "title": "Сверстать главную", "status": "DONE", "priority": "HIGH", "project": "Сайт кофейни", "author": "ivan@example.com", "assignee": "ivan@example.com" },
+    { "title": "Страница меню", "status": "IN_PROGRESS", "priority": "MEDIUM", "project": "Сайт кофейни", "author": "ivan@example.com", "assignee": "olga@example.com", "dueInDays": 3 },
+    { "title": "Подключить карту", "status": "TODO", "priority": "LOW", "project": "Сайт кофейни", "author": "ivan@example.com", "dueInDays": -2 },
+    { "title": "Экран авторизации", "status": "TODO", "priority": "HIGH", "project": "Мобильное приложение", "author": "olga@example.com", "assignee": "ivan@example.com", "dueInDays": 5 },
+    { "title": "Push-уведомления", "status": "TODO", "priority": "MEDIUM", "project": "Мобильное приложение", "author": "olga@example.com" }
+  ],
+  "comments": [
+    { "text": "Фото блюд будут в пятницу", "task": "Страница меню", "author": "ivan@example.com" },
+    { "text": "Ок, пока сделаю заглушки", "task": "Страница меню", "author": "olga@example.com" }
+  ]
+}
