@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Настроить CI",
+    "description": "GitHub Actions для бэка и фронта",
+    "author": "Аня",
+    "assignee": null,
+    "status": "in_progress"
+  },
+  {
+    "title": "Сверстать доску",
+    "description": "Три колонки, карточки задач",
+    "author": "Боря",
+    "assignee": "Боря",
+    "status": "todo"
+  },
+  {
+    "title": "Написать README",
+    "description": "Как запустить проект",
+    "author": "Аня",
+    "assignee": null,
+    "status": "done"
+  }
+]

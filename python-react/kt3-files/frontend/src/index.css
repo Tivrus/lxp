@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  padding: 5px 12px;
+  background: #3a3a3a;
+  color: #d4d4d4;
+  border: 1px solid #4a4a4a;
+  cursor: pointer;
+}
+
+a {
+  color: #aaa;
+}
+
+.muted {
+  color: #888;
+}
+
+.error {
+  margin-top: 10px;
+  color: #d08080;
+}
+
+.uploader {
+  padding: 12px;
+  background: #262626;
+  border: 1px solid #3a3a3a;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.preview {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 10px;
+  border: 1px solid #3a3a3a;
+}
+
+.thumb {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  padding: 6px;
+  border: 1px solid #3a3a3a;
+  background: #262626;
+  font-size: 13px;
+}
+
+.card {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}

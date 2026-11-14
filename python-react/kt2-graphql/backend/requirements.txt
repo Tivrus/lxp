@@ -1,0 +1,5 @@
+fastapi==0.162.0
+pydantic==2.14.3
+uvicorn[standard]==0.54.0
+python-dotenv==1.2.4
+strawberry-graphql==0.338.0

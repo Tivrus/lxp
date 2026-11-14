@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  font-family: Arial, sans-serif;
+}
+
+input,
+select,
+button {
+  padding: 6px;
+  background: #2a2a2a;
+  color: #d4d4d4;
+  border: 1px solid #4a4a4a;
+}
+
+button {
+  padding: 5px 12px;
+  background: #3a3a3a;
+  cursor: pointer;
+}
+
+a {
+  color: #aaa;
+}
+
+.muted {
+  color: #888;
+}
+
+.error {
+  color: #d08080;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: #2a2a2a;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status {
+  color: #888;
+  font-size: 13px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notifications {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 280px;
+}
+
+.notification {
+  padding: 8px 10px;
+  background: #333;
+  border: 1px solid #555;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login {
+  max-width: 320px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.new-task {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.new-task .title {
+  flex: 1 1 200px;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.column {
+  flex: 1 1 250px;
+  min-height: 200px;
+  padding: 8px;
+  background: #242424;
+  border: 1px solid #333;
+}
+
+.column h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #aaa;
+}
+
+.card {
+  padding: 8px;
+  margin-bottom: 6px;
+  background: #2c2c2c;
+  border: 1px solid #3a3a3a;
+}
+
+.card a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.card-meta {
+  margin-top: 4px;
+  color: #888;
+  font-size: 13px;
+}
+
+.mine {
+  color: #ccc;
+}
+
+.card-actions {
+  display: flex;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.card-actions button {
+  padding: 1px 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.danger {
+  color: #d08080;
+  border-color: #6a4040;
+}
+
+.comments {
+  padding: 10px;
+  background: #262626;
+  border: 1px solid #3a3a3a;
+}
+
+.comments p {
+  margin: 0 0 8px;
+}
+
+.comments input {
+  flex: 1;
+}
+
+.activity {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.feed {
+  flex: 1 1 400px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #333;
+}
+
+.feed li {
+  padding: 6px 10px;
+  border-bottom: 1px solid #333;
+}
+
+.time {
+  color: #777;
+  font-size: 12px;
+  margin-right: 8px;
+}
+
+.online {
+  flex: 0 0 180px;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
